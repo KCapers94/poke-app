@@ -1,0 +1,25 @@
+{
+    "pokemon": [
+        {
+            "id": 0,
+            "name": "Pikachu",
+            "type": "Electric",
+            "image":"c:\\Users\\kcape\\OneDrive\\Pictures\\pikachu cool.png"
+        },
+        {
+            "id": 1,
+            "name": "Charizard",
+            "type": "Fire",
+            "image":"c:\\Users\\kcape\\Downloads\\Charizard Sleeping.webp"
+        },
+        {
+            "id": 2,
+            "name": "Squirtle",
+            "type": "Water",
+            "image":"c:\\Users\\kcape\\Downloads\\Squirtle with Shades.jpg"
+        }
+    ]
+}
+
+
+
