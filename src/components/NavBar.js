@@ -1,5 +1,5 @@
-import { NavLink } from react-router-dom
-
+import { NavLink } from "react-router-dom"
+import "./NavBar.css";
 
 
 function NavBar () {
@@ -23,6 +23,12 @@ function NavBar () {
                     className="nav-link"
                 >
                     Pokemon
+                </NavLink>
+                <NavLink
+                    to="/pokeForm"
+                    className="nav-link"
+                >
+                    PokeForm
                 </NavLink>
         </nav>
     );

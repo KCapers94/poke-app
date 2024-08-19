@@ -1,12 +1,24 @@
+import React from "react"
 import './App.css';
-import { pokemon } from './data';
+import { useNavigate } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import { Outlet} from "react-router-dom"
+
+
+
+
 
 function App() {
-  console.log(pokemon)
+  const navigate = useNavigate()
+
+
+
   return (
     <div className="App">
-      <h1> The PokePagent!!</h1>
-      <img src={pokemon} alt="Mew" />
+      <header>
+        <NavBar  />
+      </header>
+      <Outlet />
     </div>
   );
 }
