@@ -2,7 +2,7 @@ import App from './App';
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Pokemon from "./pages/Pokemon";
-import PokeForm from './components/pokeform';
+import PokeForm from './components/Pokeform';
 
 
 const routes = [

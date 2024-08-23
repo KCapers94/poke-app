@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import PokeForm from "../components/pokeform";
+import PokeForm from "../components/Pokeform";
 
 function Pokemon() {
     const [pokeData, setPokeData] = useState([]);
@@ -11,6 +11,12 @@ function Pokemon() {
     }, []);
 
 
+    function handleAddPokemon(newPoke) {
+        setPokeData([...pokeData, newPoke])
+    }
+
+
+
     return (
         <div>
             <main>
@@ -19,13 +25,12 @@ function Pokemon() {
         <div key={data.id}>
             <img src={data.image} alt="pokemon" />
             <ul>
-                <p key={data.id}>{data.name}</p>
-                <p key={data.id}>{data.type}</p>
+                <p key={`${data.id}-name`}>{data.name}</p>
+                <p key={`${data.id}-type`}>{data.type}</p>
             </ul>
         </div>
     )) : null}
             </main>
-            <PokeForm setPokeData={setPokeData} />
         </div>
     );
 }
