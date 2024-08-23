@@ -1,21 +1,9 @@
-import React, { useEffect, useState } from "react";
-import PokeForm from "../components/Pokeform";
+import { useOutletContext } from "react-router-dom";
 
 function Pokemon() {
-    const [pokeData, setPokeData] = useState([]);
 
-    useEffect(() => {
-        fetch("http://localhost:3000/pokemon")
-        .then((r) => r.json())
-        .then(data => setPokeData(data));
-    }, []);
-
-
-    function handleAddPokemon(newPoke) {
-        setPokeData([...pokeData, newPoke])
-    }
-
-
+    const [pokeData] = useOutletContext()
+    console.log(pokeData)
 
     return (
         <div>

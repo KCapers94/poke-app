@@ -4,7 +4,7 @@
       "id": 0,
       "name": "Pikachu",
       "type": "Electric",
-      "image": "c:\\Users\\kcape\\OneDrive\\Pictures\\pikachu cool.png"
+      "image": "https://www.escapistmagazine.com/wp-content/uploads/2024/02/captain-hat-pikachu-pokemon-go.jpg"
     },
     {
       "id": 1,
@@ -29,6 +29,12 @@
       "type": " Water",
       "image": " ",
       "id": 4
+    },
+    {
+      "name": " Kingdra",
+      "type": " Water",
+      "image": " ",
+      "id": 5
     }
   ]
 }

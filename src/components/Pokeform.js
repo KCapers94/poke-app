@@ -1,7 +1,12 @@
 
 import React, { useState } from "react"
+import { useOutletContext } from "react-router-dom";
 
-function PokeForm({ pokeData,setPokeData, onAddPokemon }) {
+function PokeForm() {
+
+    const [handleAddPokemon] = useOutletContext()
+    console.log(handleAddPokemon)
+
     const stockImage = "https://static1.srcdn.com/wordpress/wp-content/uploads/2023/01/pokemon-unown-forms.jpg"
     const [imageUrl, setImageUrl] = useState(" ");
     const [newName, setNewName] = useState(" ")
@@ -13,7 +18,7 @@ function PokeForm({ pokeData,setPokeData, onAddPokemon }) {
         const poke = {
             name: newName,
             type: newType,
-            image: imageUrl
+            image: imageUrl === " " ? stockImage : imageUrl
     };
     fetch("http://localhost:3000/pokemon", {
         method: "POST",
@@ -23,7 +28,7 @@ function PokeForm({ pokeData,setPokeData, onAddPokemon }) {
         body: JSON.stringify(poke),
     })
     .then((r) => r.json())
-    .then((newPokemon) => onAddPokemon(newPokemon));
+    .then((newPokemon) => handleAddPokemon(newPokemon));
 }
 
     

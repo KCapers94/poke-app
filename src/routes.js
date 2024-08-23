@@ -23,7 +23,7 @@ const routes = [
                 element: <Pokemon />
             },
             {
-                path: '/pokeform',
+                path: '/pokeform', 
                 element: <PokeForm />
             } 
         ]
