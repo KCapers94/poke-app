@@ -10,30 +10,30 @@
       "id": 1,
       "name": "Charizard",
       "type": "Fire",
-      "image": "c:\\Users\\kcape\\Downloads\\Charizard Sleeping.webp"
+      "image": "https://i.pinimg.com/originals/31/c7/63/31c76387abe0c0524788f6502874ccd6.jpg"
     },
     {
       "id": 2,
       "name": "Squirtle",
       "type": "Water",
-      "image": "c:\\Users\\kcape\\Downloads\\Squirtle with Shades.jpg"
+      "image": "https://pkmanager.twingalaxies.com/assets/article/2018/07/08/pokemon-go-sunglasses-squirtle-header_feature.jpg"
     },
     {
       "name": " Magmar",
       "type": " Fire",
-      "image": " ",
+      "image": " https://staticg.sportskeeda.com/editor/2021/11/6fe4a-16361394203884-1920.jpg?w=640",
       "id": 3
     },
     {
       "name": " Lugia",
       "type": " Water",
-      "image": " ",
+      "image": "https://videogames.si.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MTk2MjE5ODY0ODc5MjExODI0/pokemon-go-lugia-1.jpg ",
       "id": 4
     },
     {
       "name": " Kingdra",
       "type": " Water",
-      "image": " ",
+      "image": "https://facts.net/wp-content/uploads/2023/07/16-facts-about-kingdra-1689698389.jpg ",
       "id": 5
     }
   ]
