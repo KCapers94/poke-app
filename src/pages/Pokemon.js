@@ -1,20 +1,22 @@
 import { useOutletContext } from "react-router-dom";
+import React from "react"
+import "./Pokemon.css"
+
 
 function Pokemon() {
 
     const [pokeData] = useOutletContext()
-    console.log(pokeData)
 
     return (
-        <div>
+        <div className={"pokePics"} >
             <main>
                 <h1>Pokemon of the Fans!</h1>
                 { Array.isArray(pokeData) ? pokeData.map((data) => (
         <div key={data.id}>
-            <img src={data.image} alt="pokemon" />
+            <img className="PokemonPics" src={data.image} alt="pokemon" />
             <ul>
-                <p key={`${data.id}-name`}>{data.name}</p>
-                <p key={`${data.id}-type`}>{data.type}</p>
+                <h2 key={`${data.id}-name`}>{data.name}</h2>
+                <h3 key={`${data.id}-type`}>{data.type}</h3>
             </ul>
         </div>
     )) : null}

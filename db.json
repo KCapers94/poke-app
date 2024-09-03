@@ -19,22 +19,40 @@
       "image": "https://pkmanager.twingalaxies.com/assets/article/2018/07/08/pokemon-go-sunglasses-squirtle-header_feature.jpg"
     },
     {
-      "name": " Magmar",
-      "type": " Fire",
-      "image": " https://staticg.sportskeeda.com/editor/2021/11/6fe4a-16361394203884-1920.jpg?w=640",
+      "name": " Lugia",
+      "type": "Water",
+      "image": " https://img.pokemondb.net/artwork/large/lugia.jpg",
       "id": 3
     },
     {
-      "name": " Lugia",
-      "type": " Water",
-      "image": "https://videogames.si.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MTk2MjE5ODY0ODc5MjExODI0/pokemon-go-lugia-1.jpg ",
+      "name": " Magmar",
+      "type": "Fire",
+      "image": "https://archives.bulbagarden.net/media/upload/thumb/5/53/Mew_Magmar.png/250px-Mew_Magmar.png",
       "id": 4
     },
     {
-      "name": " Kingdra",
-      "type": " Water",
-      "image": "https://facts.net/wp-content/uploads/2023/07/16-facts-about-kingdra-1689698389.jpg ",
+      "name": " Nine Tales",
+      "type": "Fire",
+      "image": "https://img.pokemondb.net/artwork/large/ninetales.jpg",
       "id": 5
+    },
+    {
+      "name": "Gyrados",
+      "type": "Water",
+      "image": "",
+      "id": 6
+    },
+    {
+      "name": "Gyrados",
+      "type": "Water",
+      "image": "",
+      "id": 7
+    },
+    {
+      "name": "jess",
+      "type": "Fire",
+      "image": "",
+      "id": 8
     }
   ]
 }

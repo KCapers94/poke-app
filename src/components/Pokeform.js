@@ -4,13 +4,14 @@ import { useOutletContext } from "react-router-dom";
 
 function PokeForm() {
 
-    const [handleAddPokemon] = useOutletContext()
-    console.log(handleAddPokemon)
+    const [, handleAddPokemon] = useOutletContext()
+    
+    
 
     const stockImage = "https://static1.srcdn.com/wordpress/wp-content/uploads/2023/01/pokemon-unown-forms.jpg"
-    const [imageUrl, setImageUrl] = useState(" ");
-    const [newName, setNewName] = useState(" ")
-    const [newType, setNewType] = useState(" ")
+    const [imageUrl, setImageUrl] = useState("");
+    const [newName, setNewName] = useState("")
+    const [newType, setNewType] = useState("")
 
 
      function handleSubmit(event) {

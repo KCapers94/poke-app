@@ -14,6 +14,7 @@ function App() {
 
   const [pokeData, setPokeData] = useState([]);
 
+
   useEffect(() => {
       fetch("http://localhost:3000/pokemon")
       .then((r) => r.json())
@@ -25,14 +26,16 @@ function App() {
       setPokeData([...pokeData, newPoke])
   }
 
-
+  
+  
+  const contextValue = [pokeData,handleAddPokemon]
 
   return (
     <div className="App">
       <header>
         <NavBar  />
       </header>
-      <Outlet context={[pokeData,handleAddPokemon]}/>
+      <Outlet context={contextValue}/>
     </div>
   );
 }
