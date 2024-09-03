@@ -8,7 +8,7 @@ function PokeForm() {
     
     
 
-    const stockImage = "https://static1.srcdn.com/wordpress/wp-content/uploads/2023/01/pokemon-unown-forms.jpg"
+    const stockImage = "https://images3.alphacoders.com/677/thumb-1920-677583.png"
     const [imageUrl, setImageUrl] = useState("");
     const [newName, setNewName] = useState("")
     const [newType, setNewType] = useState("")
@@ -40,7 +40,7 @@ function PokeForm() {
                 <input 
                     id="imageInput"
                     type="text"
-                    placeholder="Enter image URL or leave blank for default image"
+                    placeholder="Enter image URL"
                     value={imageUrl}
                     onChange={(e) => setImageUrl(e.target.value)}
                 />

@@ -4,54 +4,54 @@
       "id": 0,
       "name": "Pikachu",
       "type": "Electric",
-      "image": "https://www.escapistmagazine.com/wp-content/uploads/2024/02/captain-hat-pikachu-pokemon-go.jpg"
+      "image": "https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24458108/captain_pikachu.jpg?quality=90&strip=all&crop=7.8125,0,84.375,100"
     },
     {
       "id": 1,
       "name": "Charizard",
       "type": "Fire",
-      "image": "https://i.pinimg.com/originals/31/c7/63/31c76387abe0c0524788f6502874ccd6.jpg"
+      "image": "https://preview.redd.it/opinions-on-ashs-charizard-v0-bheg7ul0ea7c1.jpeg?width=1080&crop=smart&auto=webp&s=bd7cc856ca724da4b39d5262cd9e4f2ce0d87333"
     },
     {
       "id": 2,
       "name": "Squirtle",
       "type": "Water",
-      "image": "https://pkmanager.twingalaxies.com/assets/article/2018/07/08/pokemon-go-sunglasses-squirtle-header_feature.jpg"
+      "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/11/where-to-find-squirtle-in-every-main-series-pok-mon-game.jpg"
     },
     {
       "name": " Lugia",
       "type": "Water",
-      "image": " https://img.pokemondb.net/artwork/large/lugia.jpg",
+      "image": "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/05/Lugia-Pokemon-2000.jpg",
       "id": 3
     },
     {
-      "name": " Magmar",
+      "name": " Arcanine",
       "type": "Fire",
-      "image": "https://archives.bulbagarden.net/media/upload/thumb/5/53/Mew_Magmar.png/250px-Mew_Magmar.png",
+      "image": "https://images2.alphacoders.com/687/687685.png",
       "id": 4
     },
     {
       "name": " Nine Tales",
       "type": "Fire",
-      "image": "https://img.pokemondb.net/artwork/large/ninetales.jpg",
+      "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/06/20220811-pokemon-fan-gets-a-cute-ninetales-card-from-his-mom.jpg",
       "id": 5
     },
     {
       "name": "Gyrados",
       "type": "Water",
-      "image": "",
+      "image": "https://lh6.googleusercontent.com/proxy/zkFCg3qRWyOyhZ1JCqG5GAgSiAHEHASg5lzmv_7XvJVAov7hDlsVX05bWS6vfsCQur4-rr1RpIeb2YSFgO2_Q3iw09WWAuv0gR9VQIRogfCvv98D_U6QWOBWeh_O",
       "id": 6
     },
     {
       "name": "Gyrados",
       "type": "Water",
-      "image": "",
+      "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/11/Shiny-Gyarados-in-Scarlet-and-Violet.jpg",
       "id": 7
     },
     {
-      "name": "jess",
-      "type": "Fire",
-      "image": "",
+      "name": "Zapdos",
+      "type": "Electric",
+      "image": "https://static0.hardcoregamerimages.com/wordpress/wp-content/uploads/2024/06/67b3e-16572059076783-1920.jpg",
       "id": 8
     }
   ]

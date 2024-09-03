@@ -11,7 +11,7 @@ function Home() {
        <div> 
         <main>
              <h1>Poke Fans!</h1>
-             <img src={mew} alt="mew"/>
+             <img src={mew} alt="mew" className="mew"/>
         </main>
        </div> 
     )

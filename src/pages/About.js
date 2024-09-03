@@ -12,7 +12,7 @@ function About() {
         <div>
             <main>
                 <h1>About Us!</h1>
-                <h3>{aboutInfo}</h3>
+                <h4>{aboutInfo}</h4>
             </main>
         </div>
     )
