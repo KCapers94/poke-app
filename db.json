@@ -37,9 +37,9 @@
       "id": 5
     },
     {
-      "name": "Gyrados",
-      "type": "Water",
-      "image": "https://lh6.googleusercontent.com/proxy/zkFCg3qRWyOyhZ1JCqG5GAgSiAHEHASg5lzmv_7XvJVAov7hDlsVX05bWS6vfsCQur4-rr1RpIeb2YSFgO2_Q3iw09WWAuv0gR9VQIRogfCvv98D_U6QWOBWeh_O",
+      "name": "Ivysaur",
+      "type": "Grass",
+      "image": "https://facts.net/wp-content/uploads/2023/07/13-facts-about-ivysaur-1689349979.jpg",
       "id": 6
     },
     {
@@ -53,6 +53,12 @@
       "type": "Electric",
       "image": "https://static0.hardcoregamerimages.com/wordpress/wp-content/uploads/2024/06/67b3e-16572059076783-1920.jpg",
       "id": 8
+    },
+    {
+      "name": "Bellossom",
+      "type": "Grass",
+      "image": "https://i.pinimg.com/736x/4c/77/96/4c77962b9166673919028e3efbc5ef0b.jpg",
+      "id": 9
     }
   ]
 }

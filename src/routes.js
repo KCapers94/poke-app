@@ -1,7 +1,7 @@
-import App from './App';
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Pokemon from "./pages/Pokemon";
+import App from './components/App';
+import Home from "./components/Home";
+import About from "./components/About";
+import Pokemon from "./components/Pokemon";
 import PokeForm from './components/Pokeform';
 
 
@@ -20,8 +20,9 @@ const routes = [
             },  
             {
                 path: '/pokemon',
-                element: <Pokemon />
+                element: <Pokemon />,
             },
+
             {
                 path: '/pokeform', 
                 element: <PokeForm />

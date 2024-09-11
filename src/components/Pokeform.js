@@ -1,10 +1,7 @@
 
 import React, { useState } from "react"
-import { useOutletContext } from "react-router-dom";
 
-function PokeForm() {
-
-    const [, handleAddPokemon] = useOutletContext()
+function PokeForm({handleAddPokemon}) {
     
     
 
@@ -16,10 +13,13 @@ function PokeForm() {
 
      function handleSubmit(event) {
         event.preventDefault()
+        setImageUrl("")
+        setNewName("")
+        setNewType("")
         const poke = {
             name: newName,
             type: newType,
-            image: imageUrl === " " ? stockImage : imageUrl
+            image: imageUrl === "" ? stockImage : imageUrl
     };
     fetch("http://localhost:3000/pokemon", {
         method: "POST",

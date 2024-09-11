@@ -2,8 +2,9 @@ import React from "react"
 import {useState, useEffect} from "react"
 import './App.css';
 import { useNavigate } from "react-router-dom";
-import NavBar from "./components/NavBar";
-import { Outlet } from "react-router-dom"
+import NavBar from "./NavBar";
+import Pokemon from "./Pokemon";
+import PokeForm from "./Pokeform";
 
 
 
@@ -28,14 +29,13 @@ function App() {
 
   
   
-  const contextValue = [pokeData,handleAddPokemon]
-
   return (
     <div className="App">
       <header>
         <NavBar  />
       </header>
-      <Outlet context={contextValue}/>
+      <Pokemon  pokeData={pokeData}/>
+      <PokeForm handleAddPokemon={handleAddPokemon} />
     </div>
   );
 }
