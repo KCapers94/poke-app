@@ -59,6 +59,12 @@
       "type": "Grass",
       "image": "https://i.pinimg.com/736x/4c/77/96/4c77962b9166673919028e3efbc5ef0b.jpg",
       "id": 9
+    },
+    {
+      "name": "Leafeon",
+      "type": "Grass",
+      "image": "https://facts.net/wp-content/uploads/2023/07/17-facts-about-leafeon-1689578951.jpg",
+      "id": 10
     }
   ]
 }

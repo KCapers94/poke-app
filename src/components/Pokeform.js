@@ -1,9 +1,10 @@
 
 import React, { useState } from "react"
+import { Outlet,useOutletContext } from "react-router-dom";
 
-function PokeForm({handleAddPokemon}) {
+function PokeForm() {
     
-    
+    const [,handleAddPokemon] = useOutletContext()
 
     const stockImage = "https://images3.alphacoders.com/677/thumb-1920-677583.png"
     const [imageUrl, setImageUrl] = useState("");

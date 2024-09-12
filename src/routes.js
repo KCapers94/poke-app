@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Pokemon from "./components/Pokemon";
 import PokeForm from './components/Pokeform';
+//import PokeCard from './components/PokeCard';
 
 
 const routes = [
@@ -20,7 +21,13 @@ const routes = [
             },  
             {
                 path: '/pokemon',
-                element: <Pokemon />,
+                element: <Pokemon />
+                // children: [
+                //     {
+                //         path:'/pokemon',
+                //         element: <PokeCard />
+                //     }
+                // ]
             },
 
             {

@@ -3,8 +3,7 @@ import {useState, useEffect} from "react"
 import './App.css';
 import { useNavigate } from "react-router-dom";
 import NavBar from "./NavBar";
-import Pokemon from "./Pokemon";
-import PokeForm from "./Pokeform";
+import {Outlet} from "react-router-dom"
 
 
 
@@ -34,8 +33,7 @@ function App() {
       <header>
         <NavBar  />
       </header>
-      <Pokemon  pokeData={pokeData}/>
-      <PokeForm handleAddPokemon={handleAddPokemon} />
+      <Outlet context={[pokeData,handleAddPokemon]} />
     </div>
   );
 }
